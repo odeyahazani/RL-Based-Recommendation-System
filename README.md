@@ -65,6 +65,7 @@ source venv/bin/activate  # on Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+---
 📌 Highlights
 Fully modular architecture, easy to extend or swap components.
 
