@@ -28,15 +28,15 @@ This project implements a personalized movie recommendation system using **Deep 
 
 ## 📂 Project Structure
 
-movierec_rl/
-├── env.py # User simulator and environment dynamics
-├── dqn.py # Dueling DQN agent with PER support
-├── replay_buffer.py # Experience replay with SumTree-based PER
-├── sum_tree.py # Efficient data structure for PER
-├── train.py # Training loop and metrics logging
-├── evaluate.py # Benchmarking vs. heuristic baselines
-├── utils.py # Utilities (seeding, logging, config parsing)
-├── config.yaml # Main configuration file
+movierec_rl
+- env.py - User simulator and environment dynamics  
+- dqn.py - Dueling DQN agent with PER support
+- replay_buffer.py - Experience replay with SumTree-based PER
+- sum_tree.py - Efficient data structure for PER
+- train.py - Training loop and metrics logging
+- evaluate.py - Benchmarking vs. heuristic baselines
+- utils.py - Utilities (seeding, logging, config parsing)
+- config.yaml - Main configuration file
 
 ---
 
